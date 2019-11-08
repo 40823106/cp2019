@@ -41,6 +41,7 @@
 </v>
 <v t="leo.20180115142025.1"><vh>保留之前舊的設定檔案</vh></v>
 </v>
+<v t="leo.20191107223911.1"><vh>@edit base.html</vh></v>
 <v t="yen.20170224232341.2"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170224232341.3"><vh>@edit base.html</vh></v>
 </v>
