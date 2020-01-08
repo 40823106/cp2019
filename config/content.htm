@@ -152,22 +152,21 @@ All rights reserved | This template is made with <i aria-hidden="true" class="ic
                     </script>
             -->
 <script src="/get_page/cmsimde/static/chimper/js/main.js"></script>
-</p><h1>W17 考試</h1>
-<p></p>
-<p><!-- 透過 getDart(dirname) 取位於 downloads/dart_ex1/ 目錄中 dirname 目錄中的 Dart 程式碼 -->
+</p><h1>W17 查驗考試</h1>
+<h4>重量單位轉換</h4>
 <script>
 function getDart(dirname){
-    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823106&gh_repo=cp2019&gh_path=downloads/dart_ex1/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823121&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
     document.getElementById("iframe").src = source ;
 }
 
 function getHtmlDart(dirname){
-    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823106&gh_repo=cp2019&gh_path=downloads/dart_ex1/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823121&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
 document.getElementById("iframe").src = source ;
 }
 
 function getFlutter(dirname){
-    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823106&gh_repo=cp2019&gh_path=downloads/dart_ex1/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823121&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
 document.getElementById("iframe").src = source ;
 }
 
@@ -181,14 +180,14 @@ document.getElementById("iframe").width = 800 ;
 document.getElementById("iframe").height = 600 ;
 }
 </script>
-<!-- 取 Dart 程式的按鈕 --></p>
-<h4>純 Dart 程式</h4>
-<p><button onclick="getDart('重量轉換dart')">重量轉換dart</button></p>
-<h4>Html 程式</h4>
+<p><button onclick="getDart('weight-dart')">重量轉換dart</button></p>
 <p><button onclick="getHtmlDart('weight')">重量轉換html</button></p>
-<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823107&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex1/重量轉換dart&amp;theme=dark" width="800"></iframe></p>
-<p><br/>Dartpad &lt;&lt; <a href="/get_page/W17%20%E8%80%83%E8%A9%A6/Dartpad.html">Previous</a></p>
+<p><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button><br/><iframe height="600" id="iframe" src="https://dartpad.github.io/embed-dart.html?gh_owner=40823121&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/weight-dart&amp;theme=dark" width="800"></iframe></p>
+<p></p>
+<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<script src="/../cp2019/downloads/dart_ex/weight/weight.js"></script>
+<p><br/>國旗-2 &lt;&lt; <a href="/get_page/W17%20%E8%80%83%E8%A9%A6/國旗-2.html">Previous</a></p>
 <!-- footer -->
 <div class="container">
 <div class="row pt-3 mx-auto">
